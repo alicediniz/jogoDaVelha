@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body {
+    background: url(https://img00.deviantart.net/1438/i/2013/319/9/2/notebook_wallpaper_by_lukeaustinart-d6uchzg.jpg);
+    background-size: cover;
+    background-position: center;
+ 	font-size: 40px; 
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+	color: #474A51;
+}
+
+td {
+	border:  2px solid black;
+	height:  100px;
+	width:  100px;
+	text-align:  center;
+	vertical-align:  middle;
+	font-size:  70px;
+	cursor: pointer;
+}
+
+table {
+	border-collapse: collapse;
+	left: 50%;
+	margin: auto;
+	top: 50px;
+}
+
+
+
+.P11, .P21 , .P31 {
+	border-left: 0;
+}
+
+.P13, .P23 , .P33 {
+	border-right: 0;
+}
+
+.P11 , .P12 , .P13 {
+	border-top: 0;
+}
+
+.P31 , .P32 , .P33 {
+	border-bottom: 0;
+}
+
+#onePlayer {
+	margin-right: 100px;
+	text-decoration: underline;
+}
